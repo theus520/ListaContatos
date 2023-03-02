@@ -9,5 +9,4 @@ public class ListaContatosApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ListaContatosApplication.class, args);
 	}
-
 }
