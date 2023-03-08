@@ -26,6 +26,11 @@ public class Contato {
 	public void setId(String id) {
 		this.id = id;
 	}
+	
+	
+	public boolean isNovo() {
+		return id == null;
+	}
 
 	public String getNome() {
 		return nome;
